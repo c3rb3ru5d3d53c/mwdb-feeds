@@ -2,6 +2,9 @@
 
 [![build](https://travis-ci.org/c3rb3ru5d3d53c/mwdb-feeds.svg?branch=master)](https://travis-ci.org/c3rb3ru5d3d53c/mwdb-feeds)
 [![license](https://img.shields.io/github/license/c3rb3ru5d3d53c/mwdb-feeds)](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/blob/master/LICENSE)
+[![pypi-version](https://pypip.in/v/mwdb-feeds/badge.png)](https://pypi.org/project/mwdb-feeds/)
+[![pypi-downloads](https://pypip.in/d/mwdb-feeds/badge.png)](https://pypi.org/project/mwdb-feeds/)
+[![pypi-wheel](https://pypip.in/wheel/mwdb-feeds/badge.svg)](https://pypi.org/project/mwdb-feeds/)
 [![issues](https://img.shields.io/github/issues/c3rb3ru5d3d53c/mwdb-feeds)](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/issues)
 [![stars](https://img.shields.io/github/stars/c3rb3ru5d3d53c/mwdb-feeds)](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/stargazers)
 
