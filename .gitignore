@@ -1,3 +1,6 @@
 venv/**
 __pycache__/
 mwdb-feeds.ini
+build/**
+dist/**
+mwdb_feeds.egg-info/**

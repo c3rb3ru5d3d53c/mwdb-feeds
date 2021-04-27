@@ -112,7 +112,7 @@ class MWDBFeeds():
             module = self.get_module(self.args.module, modules)
             if module:
                 result = mwdb_feeds_module_worker(self.config, self.mwdb, module)
-                if result not None:
+                if result is not None:
                     result = [result]
                     print(json.dumps(result, indent=4))
                 self.logout()
@@ -161,5 +161,12 @@ class MWDBFeeds():
         self.logout()
 
 if __name__ in '__main__':
-    collector = MWDBFeeds()
-    collector.main()
+    try:
+        collector = MWDBFeeds()
+        collector.main()
+    except KeyboardInterrupt:
+        log.warning('interrupted, exiting...')
+        sys.exit(0)
+    except Exception as error:
+        log.error(error)
+        sys.exit(1)
