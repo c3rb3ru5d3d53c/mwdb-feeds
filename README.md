@@ -39,3 +39,7 @@ username = <your_username_here>
 api_key = <your_api_key_here>
 verify_ssl = True
 ```
+
+**Contributing:**
+
+If you wish to contribute your own modules to automatically unpack malware, please refer to [CONTRIBUTING.md](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/blob/master/CONTRIBUTING.md)

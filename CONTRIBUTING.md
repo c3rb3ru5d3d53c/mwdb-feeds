@@ -37,7 +37,8 @@ class MWDBFeedsModule():
     """
 
     def __init__(self, config, mwdb):
-        self.name = 'example'         # Name of your Module
+        self.name = 'example'               # Name of your Module
+        self.tag  = f'feed:{self.name}'     # Feed Tag
         self.enabled = self.startup(config) # Check Configuration File
         self.mwdb = mwdb                    # Set the mwdblib object
 
@@ -59,7 +60,8 @@ class MWDBFeedsModule():
             f = open(self.config.get(self.name, 'file'), 'rb')
             content = f.read()
             name = hashlib.sha256(data).hexdigest()
-            self.mwdb.upload_file(name=name, content=content)
+            upload = self.mwdb.upload_file(name=name, content=content)
+            upload.add_tag(self.tag)
             f.close()
         except Exception as error:
             log.error(error)
