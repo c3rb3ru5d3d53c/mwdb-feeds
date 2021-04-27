@@ -1,5 +1,10 @@
 # MWDB Feeds
 
+[![build](https://travis-ci.org/c3rb3ru5d3d53c/mwdb-feeds.svg?branch=master)](https://travis-ci.org/c3rb3ru5d3d53c/mwdb-feeds)
+[![license](https://img.shields.io/github/license/c3rb3ru5d3d53c/mwdb-feeds)](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/blob/master/LICENSE)
+[![issues](https://img.shields.io/github/issues/c3rb3ru5d3d53c/mwdb-feeds)](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/issues)
+[![stars](https://img.shields.io/github/stars/c3rb3ru5d3d53c/mwdb-feeds)](https://github.com/c3rb3ru5d3d53c/mwdb-feeds/stargazers)
+
 A Modular MWDB Utility to Collect Fresh Malware Samples
 
 This project is FREE as in FREE :beer:, use it commercially, privately or however you see fit.
