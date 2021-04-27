@@ -11,7 +11,7 @@ Buy me a :tea:, as I don't drink :beer:, by sending me some ₿ to `16oXesi7uv3j
 **Installation:**
 ```bash
 sudo apt install -y python3-virtualenv python-is-python3
-git clone --recursive
+git clone --recursive https://github.com/c3rb3ru5d3d53c/mwdb-feeds.git
 cd mwdb-feeds/
 virtualenv venv/
 source venv/bin/activate
