@@ -16,7 +16,7 @@ If you like this project and wish to donate :moneybag: to support the fight agai
 
 Buy me a :tea:, as I don't drink :beer:, by sending me some ₿ to `16oXesi7uv3jdPZxxwarHSD2f3cNMpaih9`
 
-**Installation:**
+**Installation from Source:**
 ```bash
 sudo apt install -y python3-virtualenv python-is-python3
 git clone --recursive https://github.com/c3rb3ru5d3d53c/mwdb-feeds.git
@@ -28,6 +28,20 @@ nano mwdb-feeds.ini                                            # Edit your Confi
 mwdb-feeds --config-file mwdb-feeds.ini --list-modules         # List Modules
 mwdb-feeds --config-file mwdb-feeds.ini --module malwarebazaar # Run Single Module
 mwdb-feeds --config-file mwdb-feeds.ini                        # Run All Modules
+```
+
+**Installation from PyPi:**
+```bash
+sudo apt install -y python3-virtualenv python-is-python3
+virtualenv venv/
+source venv/bin/activate
+pip install mwdb-feeds
+git clone https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules.git modules/
+find modules/ -name "requirements.txt" | while read i; do pip install -r $i; done
+nano mwdb-feeds.ini                                       # Edit your Configuration File
+mwdb-feeds --config mwdb-feeds.ini --list-modules         # List Modules
+mwdb-feeds --config mwdb-feeds.ini --module malwarebazaar # Run Single Module
+mwdb-feeds --config mwdb-feeds.ini                        # Run All Module
 ```
 
 **Configuration:**
@@ -42,6 +56,8 @@ username = <your_username_here>
 api_key = <your_api_key_here>
 verify_ssl = True
 ```
+
+To regularly update your instance try using `cron`.
 
 **Contributing:**
 
