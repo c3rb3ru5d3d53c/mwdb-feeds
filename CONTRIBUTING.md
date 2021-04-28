@@ -3,7 +3,7 @@
 **Step 1: Download the Main Repository**
 
 ```bash
-git clone --recursive
+git clone --recursive https://github.com/c3rb3ru5d3d53c/mwdb-feeds.git
 cd mwdb-feeds/modules/
 ```
 
