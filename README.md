@@ -41,7 +41,7 @@ find modules/ -name "requirements.txt" | while read i; do pip install -r $i; don
 nano mwdb-feeds.ini                                       # Edit your Configuration File
 mwdb-feeds --config mwdb-feeds.ini --list-modules         # List Modules
 mwdb-feeds --config mwdb-feeds.ini --module malwarebazaar # Run Single Module
-mwdb-feeds --config mwdb-feeds.ini                        # Run All Module
+mwdb-feeds --config mwdb-feeds.ini                        # Run All Modules
 ```
 
 **Configuration:**
