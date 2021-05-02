@@ -57,6 +57,11 @@ api_key = <your_api_key_here>
 verify_ssl = True
 ```
 
+Make sure you have also configured each module in your `mwdb-feeds.ini` file.
+- [`VXVault`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/vxvault/README.md)
+- [`MalwareBazaar`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/malwarebazaar/README.md)
+- [`Twitter`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/twitter/README.md)
+
 To regularly update your instance try using `cron`.
 
 **Contributing:**
