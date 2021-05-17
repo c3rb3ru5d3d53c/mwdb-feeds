@@ -61,6 +61,8 @@ Make sure you have also configured each module in your `mwdb-feeds.ini` file.
 - [`VXVault`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/vxvault/README.md)
 - [`MalwareBazaar`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/malwarebazaar/README.md)
 - [`Twitter`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/twitter/README.md)
+- [`MalShare`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/malshare/README.md)
+- [`VirusTotal LiveHunt`](https://github.com/c3rb3ru5d3d53c/mwdb-feeds-modules/blob/master/virustotal/README.md)
 
 To regularly update your instance try using `cron`.
 
